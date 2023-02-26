@@ -75,7 +75,7 @@ struct HomeView: View {
                                     if let err = err {
                                         alertMessage = err.message
                                     } else {
-                                        alertMessage = "Your note has been renamed to \(viewModel.name)"
+                                        alertMessage = "Your note has been named to \(viewModel.name)"
                                     }
                                     showingAlert.toggle()
                                 }

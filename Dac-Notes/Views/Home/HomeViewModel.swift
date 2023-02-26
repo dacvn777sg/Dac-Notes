@@ -32,21 +32,17 @@ final class HomeViewModel: ObservableObject {
         }
         
         let refName = databasePath.child("\(userId)/name")
-        refName.getData(completion:  { error, snapshot in
-            guard error == nil else {
-                print(error!.localizedDescription)
+        refName.observe(.value) { [weak self] snapShot in
+            guard let `self` = self, let nameValue = snapShot.value as? String else {
                 return
             }
-            self.name = snapshot?.value as? String ?? ""
-        })
+            self.name = nameValue
+        }
         
         self.notes = []
         let refNote = databasePath.child(userId).child("notes")
         refNote.observe(.childAdded) { [weak self] snapshot,str  in
-            guard
-                let self = self,
-                var json = snapshot.value as? [String: Any]
-            else {
+            guard let `self` = self, var json = snapshot.value as? [String: Any] else {
                 return
             }
             json["id"] = snapshot.key
@@ -96,6 +92,7 @@ final class HomeViewModel: ObservableObject {
     
     func stopListening() {
         databasePath?.child(userId).child("notes").removeAllObservers()
+        databasePath?.child("\(userId)/name").removeAllObservers()
 //        databasePath?.removeAllObservers()
     }
 }

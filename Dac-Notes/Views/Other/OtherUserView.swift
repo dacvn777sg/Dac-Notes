@@ -19,8 +19,10 @@ struct OtherUserView: View {
                         ForEach(viewModel.users) { user in
                             Section(user.name ?? "Unnamed") {
                                 ForEach(user.noteArr) { note in
-                                    NavigationLink(destination: NoteDetailView(note: note, onNoteAdded: {title,desc in })) {
-                                        NoteRow(note: .constant(note))
+                                    NavigationLink(destination: NoteDetailView(note: note, isViewOnly: true)
+                                        .navigationTitle("Detail Note")
+                                        .navigationBarTitleDisplayMode(.inline)) {
+                                            NoteRow(note: .constant(note))
                                     }
                                 }
                                 
