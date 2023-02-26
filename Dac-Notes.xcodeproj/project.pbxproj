@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5F730B29A8D7B70003B552 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F730A29A8D7B70003B552 /* AppRouter.swift */; };
+		CB5F730D29AB202E0003B552 /* MainTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F730C29AB202E0003B552 /* MainTabbarView.swift */; };
+		CB5F730F29AB247E0003B552 /* OtherUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F730E29AB247E0003B552 /* OtherUserViewModel.swift */; };
+		CB5F731429AB5A9E0003B552 /* ImageOnCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F731329AB5A9E0003B552 /* ImageOnCircle.swift */; };
+		CB5F731629AB5E760003B552 /* NoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F731529AB5E760003B552 /* NoteRow.swift */; };
+		CB5F731829AB759B0003B552 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5F731729AB759B0003B552 /* AppError.swift */; };
+		CB61082F29A7A43C009597C3 /* InputNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61082E29A7A43C009597C3 /* InputNameView.swift */; };
+		CBCCAD5E29A5F4DD007B846A /* Dac_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCAD5D29A5F4DD007B846A /* Dac_NotesApp.swift */; };
+		CBCCAD6029A5F4DD007B846A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCAD5F29A5F4DD007B846A /* HomeView.swift */; };
+		CBCCAD6229A5F4DF007B846A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCCAD6129A5F4DF007B846A /* Assets.xcassets */; };
+		CBCCAD6529A5F4DF007B846A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCCAD6429A5F4DF007B846A /* Preview Assets.xcassets */; };
+		CBCCAD6F29A5FCBB007B846A /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCAD6E29A5FCBB007B846A /* NoteDetailView.swift */; };
+		CBCCAD7129A5FF54007B846A /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCAD7029A5FF54007B846A /* NoteModel.swift */; };
+		CBCCAD7529A60AE2007B846A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCAD7429A60AE2007B846A /* HomeViewModel.swift */; };
+		CBCCAD7F29A60E96007B846A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CBCCAD7E29A60E96007B846A /* FirebaseDatabase */; };
+		CBCCAD8129A60E96007B846A /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CBCCAD8029A60E96007B846A /* FirebaseDatabaseSwift */; };
+		CBCCAD8329A61430007B846A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCCAD8229A61430007B846A /* UserModel.swift */; };
+		CBCCAD8529A61776007B846A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBCCAD8429A61776007B846A /* GoogleService-Info.plist */; };
+		CBD2112229A7596E00A4B4F6 /* OtherUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2112129A7596E00A4B4F6 /* OtherUserView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB5F730A29A8D7B70003B552 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		CB5F730C29AB202E0003B552 /* MainTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarView.swift; sourceTree = "<group>"; };
+		CB5F730E29AB247E0003B552 /* OtherUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUserViewModel.swift; sourceTree = "<group>"; };
+		CB5F731329AB5A9E0003B552 /* ImageOnCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOnCircle.swift; sourceTree = "<group>"; };
+		CB5F731529AB5E760003B552 /* NoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRow.swift; sourceTree = "<group>"; };
+		CB5F731729AB759B0003B552 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		CB61082E29A7A43C009597C3 /* InputNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNameView.swift; sourceTree = "<group>"; };
+		CBCCAD5A29A5F4DD007B846A /* Dac-Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dac-Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCCAD5D29A5F4DD007B846A /* Dac_NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dac_NotesApp.swift; sourceTree = "<group>"; };
+		CBCCAD5F29A5F4DD007B846A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CBCCAD6129A5F4DF007B846A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCCAD6429A5F4DF007B846A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBCCAD6E29A5FCBB007B846A /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteDetailView.swift; path = "Dac-Notes/Views/Detail/NoteDetailView.swift"; sourceTree = SOURCE_ROOT; };
+		CBCCAD7029A5FF54007B846A /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		CBCCAD7429A60AE2007B846A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CBCCAD8229A61430007B846A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CBCCAD8429A61776007B846A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBD2112129A7596E00A4B4F6 /* OtherUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUserView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCCAD5729A5F4DD007B846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCAD8129A60E96007B846A /* FirebaseDatabaseSwift in Frameworks */,
+				CBCCAD7F29A60E96007B846A /* FirebaseDatabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5F730929A8D79F0003B552 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F730A29A8D7B70003B552 /* AppRouter.swift */,
+				CB5F731729AB759B0003B552 /* AppError.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CB5F731229AB5A3D0003B552 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				CB5F731329AB5A9E0003B552 /* ImageOnCircle.swift */,
+				CB5F731529AB5E760003B552 /* NoteRow.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		CB61082D29A7A404009597C3 /* Input Name */ = {
+			isa = PBXGroup;
+			children = (
+				CB61082E29A7A43C009597C3 /* InputNameView.swift */,
+			);
+			path = "Input Name";
+			sourceTree = "<group>";
+		};
+		CBCCAD5129A5F4DD007B846A = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD5C29A5F4DD007B846A /* Dac-Notes */,
+				CBCCAD5B29A5F4DD007B846A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCCAD5B29A5F4DD007B846A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD5A29A5F4DD007B846A /* Dac-Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCCAD5C29A5F4DD007B846A /* Dac-Notes */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD8429A61776007B846A /* GoogleService-Info.plist */,
+				CB5F730929A8D79F0003B552 /* Service */,
+				CBCCAD6B29A5F699007B846A /* Model */,
+				CBCCAD6C29A5F69F007B846A /* Views */,
+				CB5F731229AB5A3D0003B552 /* Custom View */,
+				CBCCAD5D29A5F4DD007B846A /* Dac_NotesApp.swift */,
+				CBCCAD6129A5F4DF007B846A /* Assets.xcassets */,
+				CBCCAD6329A5F4DF007B846A /* Preview Content */,
+			);
+			path = "Dac-Notes";
+			sourceTree = "<group>";
+		};
+		CBCCAD6329A5F4DF007B846A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD6429A5F4DF007B846A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBCCAD6B29A5F699007B846A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD7029A5FF54007B846A /* NoteModel.swift */,
+				CBCCAD8229A61430007B846A /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBCCAD6C29A5F69F007B846A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB61082D29A7A404009597C3 /* Input Name */,
+				CBD2112029A7592F00A4B4F6 /* Other */,
+				CBCCAD7329A609E1007B846A /* Detail */,
+				CBCCAD7229A609D8007B846A /* Home */,
+				CB5F730C29AB202E0003B552 /* MainTabbarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBCCAD7229A609D8007B846A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD5F29A5F4DD007B846A /* HomeView.swift */,
+				CBCCAD7429A60AE2007B846A /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CBCCAD7329A609E1007B846A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCAD6E29A5FCBB007B846A /* NoteDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CBD2112029A7592F00A4B4F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2112129A7596E00A4B4F6 /* OtherUserView.swift */,
+				CB5F730E29AB247E0003B552 /* OtherUserViewModel.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCCAD5929A5F4DD007B846A /* Dac-Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCCAD6829A5F4DF007B846A /* Build configuration list for PBXNativeTarget "Dac-Notes" */;
+			buildPhases = (
+				CBCCAD5629A5F4DD007B846A /* Sources */,
+				CBCCAD5729A5F4DD007B846A /* Frameworks */,
+				CBCCAD5829A5F4DD007B846A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dac-Notes";
+			packageProductDependencies = (
+				CBCCAD7E29A60E96007B846A /* FirebaseDatabase */,
+				CBCCAD8029A60E96007B846A /* FirebaseDatabaseSwift */,
+			);
+			productName = "Dac-Notes";
+			productReference = CBCCAD5A29A5F4DD007B846A /* Dac-Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCCAD5229A5F4DD007B846A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CBCCAD5929A5F4DD007B846A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CBCCAD5529A5F4DD007B846A /* Build configuration list for PBXProject "Dac-Notes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCCAD5129A5F4DD007B846A;
+			packageReferences = (
+				CBCCAD7D29A60E96007B846A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CBCCAD5B29A5F4DD007B846A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCCAD5929A5F4DD007B846A /* Dac-Notes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCCAD5829A5F4DD007B846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCAD6529A5F4DF007B846A /* Preview Assets.xcassets in Resources */,
+				CBCCAD6229A5F4DF007B846A /* Assets.xcassets in Resources */,
+				CBCCAD8529A61776007B846A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCCAD5629A5F4DD007B846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCCAD6F29A5FCBB007B846A /* NoteDetailView.swift in Sources */,
+				CB5F731629AB5E760003B552 /* NoteRow.swift in Sources */,
+				CBCCAD7129A5FF54007B846A /* NoteModel.swift in Sources */,
+				CB61082F29A7A43C009597C3 /* InputNameView.swift in Sources */,
+				CBCCAD8329A61430007B846A /* UserModel.swift in Sources */,
+				CBCCAD6029A5F4DD007B846A /* HomeView.swift in Sources */,
+				CB5F731829AB759B0003B552 /* AppError.swift in Sources */,
+				CB5F731429AB5A9E0003B552 /* ImageOnCircle.swift in Sources */,
+				CBCCAD7529A60AE2007B846A /* HomeViewModel.swift in Sources */,
+				CB5F730F29AB247E0003B552 /* OtherUserViewModel.swift in Sources */,
+				CB5F730D29AB202E0003B552 /* MainTabbarView.swift in Sources */,
+				CB5F730B29A8D7B70003B552 /* AppRouter.swift in Sources */,
+				CBCCAD5E29A5F4DD007B846A /* Dac_NotesApp.swift in Sources */,
+				CBD2112229A7596E00A4B4F6 /* OtherUserView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBCCAD6629A5F4DF007B846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBCCAD6729A5F4DF007B846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCCAD6929A5F4DF007B846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dac-Notes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4C738SKZ7D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.dac.Dac-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBCCAD6A29A5F4DF007B846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dac-Notes/Preview Content\"";
+				DEVELOPMENT_TEAM = 4C738SKZ7D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.dac.Dac-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCCAD5529A5F4DD007B846A /* Build configuration list for PBXProject "Dac-Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCCAD6629A5F4DF007B846A /* Debug */,
+				CBCCAD6729A5F4DF007B846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCCAD6829A5F4DF007B846A /* Build configuration list for PBXNativeTarget "Dac-Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCCAD6929A5F4DF007B846A /* Debug */,
+				CBCCAD6A29A5F4DF007B846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBCCAD7D29A60E96007B846A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBCCAD7E29A60E96007B846A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBCCAD7D29A60E96007B846A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CBCCAD8029A60E96007B846A /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBCCAD7D29A60E96007B846A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CBCCAD5229A5F4DD007B846A /* Project object */;
+}
